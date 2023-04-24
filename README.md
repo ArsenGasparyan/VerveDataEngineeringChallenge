@@ -83,9 +83,9 @@ The project consists of the following main files:
 
 1. Clone the repository and navigate to the project directory.
 
-```sh
-git clone https://github.com/your-username/data-lake-elt.git
-cd data-lake-elt
+```sh 
+git clone https://github.com/ArsenGasparyan/VerveDataEngineeringChallenge.git
+cd VerveDataEngineeringChallenge
 ```
 
 2. Build the project using SBT.
