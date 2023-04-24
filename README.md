@@ -103,7 +103,7 @@ sbt package
 4. Run the JAR file using Spark, passing in the input file paths for impressions and clicks data.
 
 ```sh
-spark-submit --class verve.data.engineering.challenge.job.MobileAdCampaign target/scala-2.12/data-lake-elt_2.12-0.1.0-SNAPSHOT.jar data/input/impressions.json data/input/clicks.json
+spark-submit --class verve.data.engineering.challenge.job.MobileAdCampaign target/scala-2.12/vervedataengineeringchallenge_2.12-0.1.0-SNAPSHOT.jar data/input/impressions.json data/input/clicks.json
 ```
 
 5. After the data processing is completed, the output files containing calculated metrics and recommended advertiser IDs will be saved to the configured paths in `application.conf`.
