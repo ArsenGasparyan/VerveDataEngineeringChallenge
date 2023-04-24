@@ -110,7 +110,7 @@ spark-submit --class verve.data.engineering.challenge.job.MobileAdCampaign targe
 
 ## Output
 
-The output of this project consists of two files:
+The output of this project consists of two files in data/output/ path:
 
 1. `calculated_metrics.json` - A JSON file containing metrics like the total number of impressions, clicks, and revenue for each app and country.
 2. `recommended_advertiser_ids.json` - A JSON file containing the top 5 recommended advertiser IDs for each app and country based on the revenue rate.
